@@ -18,7 +18,6 @@ document.body.append(table);
 
 for( var i = 2 ; i <= 10; i++){
     var multi = document.createElement('th')
-    /* multi.classList.add("multi"); */
     var color = ["#F00", "#00F"]
     if(i%2 !== 0){
         multi.style.backgroundColor = "#00F"
